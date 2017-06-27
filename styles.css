@@ -1,0 +1,295 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: arial, sans-serif;
+}
+
+h2{
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+/* Navigation */
+#navigation{
+	position: relative;
+	padding: 20px;
+}
+
+#logo{
+	float: left;
+	height: 60px;
+	width: 214px;
+}
+
+#logo::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#navigation ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#navigation ul::after;{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+#navigation li{
+	float: left;
+}
+
+#navigation ul li a{	
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: bold;
+	line-height: 60px;
+	
+  text-align: center;
+  text-decoration: none;
+	
+	border-radius: 5px;
+	padding: 6px;
+	margin: 5px;
+}
+
+#navigation li a:hover{
+	color: white;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Splash */
+#splash{
+	background: url(images/59-fade.jpg);
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#splash::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#splashMiddle{	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+
+	color: white;
+	text-align:center!important;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#splashMiddle::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#splashMiddle h1{
+	font-size: 90px;
+	line-height: 90px;
+	font-weight: bold;
+
+	margin: 0px;
+	padding: 0px;
+	
+	white-space: pre;
+}
+
+#splashMiddle h3{
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;
+
+	margin: 10px;	
+	padding: 0px;
+
+}
+
+
+#splashBottom{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -90%);
+	-ms-transform: translate(-50%, -90%);
+
+	color: white;
+	text-align:center!important;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+/* Services */
+#services{
+	text-align: center;
+	background-color: rgb(242, 242, 242);
+	padding: 40px 0px 0px 0px;
+	/*background: url(images/create.jpg);*/
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#services::after{
+	padding: 40px 0px 40px 0px;
+	content: "";
+	display: block;
+	background: url(images/create_cut.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 36.7666667%;
+}
+
+
+
+#services h2{
+	margin: 0px 0px 10px 0px;	
+	padding: 0px;
+}
+
+#services h3{
+	margin: 0px 0px 20px 0px;	
+	padding: 0px;
+}
+
+.serviceBox{
+	display: inline-block;
+	width: 25%;
+	min-width: 200px;
+	
+	background-color: rgb(242,242,242);
+	border-radius: 5px;
+	padding: 10px 0px 10px 0px;
+	margin: 5px;
+	
+	text-align: center;
+}
+
+.serviceBox img{
+	margin: 1	0px;
+}
+.serviceBox hr{
+	border-width: 4px;
+	padding: 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+#dueDiligence{
+	border-color: rgb(79, 43, 142);
+}
+
+#financialAnalysis{
+	border-color: rgb(49, 114, 174);
+}
+
+#advisory{
+	border-color: rgb(6, 111, 47);
+}
+
+.serviceBox ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#about{
+	text-align: center;	
+	padding: 40px 0px 40px 0px;
+	
+	background: url(images/43-fade.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	color: white;
+}
+
+#about h2{
+	margin: 10px 0px 10px 0px;	
+	padding: 0px;
+}
+
+#about h3{
+	margin: 0px 0px 20px 0px;	
+	padding: 0px;
+}
+
+#about p{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+/* Services */
+#contact{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(242, 242, 242);
+	padding: 40px 0px 40px 0px;
+	background: url(images/phone.jpg);
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#YvynIpoMZ {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+		margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#YvynIpoMZ:hover {
+    background-color: #45a049;
+}
+
+/*
+#contact::after{
+	padding: 40px 0px 40px 0px;
+	content: "Test";
+	display: block;
+	background: url(images/create_cut.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 36.7666667%;
+	float:right;
+}*/
+
+
