@@ -293,7 +293,11 @@ h3{
 }*/
 
 
+<<<<<<< HEAD
 @media only screen and (max-width: 771px) {
+=======
+@media only screen and (max-width: 770px) {
+>>>>>>> origin/master
 	#splashMiddle h1{
 		font-size: 40px;
 		line-height: 40px;
