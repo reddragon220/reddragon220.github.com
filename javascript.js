@@ -5,3 +5,12 @@ function message(){
 								
 	window.location.href="mailto:" + address;
 }
+
+function myFunction() {
+    var x = document.getElementById("navigation_list");
+    if (x.className === "") {
+        x.className += " responsive";
+    } else {
+        x.className = "";
+    }
+}
